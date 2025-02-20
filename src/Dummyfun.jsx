@@ -1,13 +1,13 @@
-import React from 'react'
+// import React from 'react'
 
-function Dummyfun({fullname}) {
+// function Dummyfun({fullname}) {
 
-  return (
-    <div>
-        <h1>{fullname}</h1>
+//   return (
+//     <div>
+//         <h1>{fullname}</h1>
         
-        Dummyfun</div>
-  )
-}
+//         Dummyfun</div>
+//   )
+// }
 
-export default Dummyfun
+// export default Dummyfun

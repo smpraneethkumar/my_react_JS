@@ -12,11 +12,12 @@ const name = "harsha"
   return (
     <div className="App">
       {/* <h2>Welcom to React</h2> */}
-      {/* <ClassComp/>
-      <Forms/> */}
-      <Dummyfun fullname="praneeth"/>
-      <Dummyclass fullname="praneeth"/>
-
+      {/* <ClassComp/>*/}
+      
+      {/* <Dummyfun fullname="praneeth"/>
+      <Dummyclass fullname="praneeth"/> */}
+<Forms/>
+ 
 
 
     </div>
