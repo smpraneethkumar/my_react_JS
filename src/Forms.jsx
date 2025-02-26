@@ -261,24 +261,24 @@
 
 // export default ContactUs;
 
-import React, { Component } from 'react'
+// import React, { Component } from 'react'
 
-export class Forms extends Component {
-  render() {
-    return (
-      <div>
-        <h1>Welcome to the Theme Switcher App! </h1>
-        <p>This is the content area. The theme is currently light. </p>
+// export class Forms extends Component {
+//   render() {
+//     return (
+//       <div>
+//         <h1>Welcome to the Theme Switcher App! </h1>
+//         <p>This is the content area. The theme is currently light. </p>
          
           
-        <footer>
-          Copyright@ 2025 AchieversIT. All Right Reserved
-        </footer>
+//         <footer>
+//           Copyright@ 2025 AchieversIT. All Right Reserved
+//         </footer>
        
-      </div>
+//       </div>
       
-    )
-  }
-}
+//     )
+//   }
+// }
 
-export default Forms
+// export default Forms

@@ -13,14 +13,15 @@ import { Fun_state_props } from './Fun_state_props';
 function App() {
    
 const name = "harsha"
+const name1 = "arish"
   return (
     <div className="App">
       <Header/>
       <Routing/>
       <ClassComp/>
-      <Forms/>
-      <Clas_state_props/>
-      <Fun_state_props anna={name}/>
+      {/* <Forms/> */}
+      <Clas_state_props anna1 = {name1} />
+      <Fun_state_props anna={name} />
     </div>
   );
 }
