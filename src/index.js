@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import "bootstrap/dist/css/bootstrap.min.css"
-import FunComp from './FunComp';
 import { BrowserRouter } from 'react-router-dom';
 
 
@@ -14,7 +13,7 @@ root.render(
     <BrowserRouter>
     <App />
     </BrowserRouter> 
-    <FunComp/>
+  
   </React.StrictMode>
 );
 

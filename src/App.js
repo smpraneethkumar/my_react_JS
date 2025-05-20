@@ -1,27 +1,26 @@
-import logo from './logo.svg';
+
 import './App.css';
-import FunComp from './FunComp';
-import ClassComp from './ClassComp';
-import Forms from './Forms';
-import Dummyfun from './Dummyfun';
-import Dummyclass from './Dummyclass';
-import Header from './Header';
-import Routing from './Routes/Routing';
-import Clas_state_props from './Clas_state_props';
-import { Fun_state_props } from './Fun_state_props';
+import ClassComp from './Components/ClassComp';
+import ContactUs from './Components/ContactUs';
+import FunComp from './Components/FunComp';
+import Header from './Components/Header';
+import ListAndKeys from './Components/ListAndKeys';
+
 
 function App() {
-   
-const name = "harsha"
-const name1 = "arish"
+  const course1 = 'reactjs' 
+  const course2 = 'nodeJS' 
+
   return (
     <div className="App">
+      
       <Header/>
-      <Routing/>
-      <ClassComp/>
-      {/* <Forms/> */}
-      <Clas_state_props anna1 = {name1} />
-      <Fun_state_props anna={name} />
+      <ContactUs/>
+    
+      {/* <ClassComp  courseName= {course2} durations='3month'/> */}
+      {/* <FunComp courseName={course1} durations='3month' /> */}
+      {/* <ListAndKeys/> */}
+     
     </div>
   );
 }
