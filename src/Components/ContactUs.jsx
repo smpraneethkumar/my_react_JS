@@ -21,7 +21,7 @@ export class ContactUs extends Component {
 
      if(this.state.firstName.length < 3){
         firstNameErr= "first should be atleast 3 chars"; 
-        console.log(this.state.firstNameErr);
+        // console.log(this.state.firstNameErr);
           
     }
      if(this.state.lastName.length <1){

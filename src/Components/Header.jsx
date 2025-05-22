@@ -20,10 +20,10 @@ export class Header extends Component {
           <Link  to="/contactus" class="nav-link" >Contact Us</Link>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Pricing</a>
+          <Link to="/user" class="nav-link" >User</Link>
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+        <Link to="/usestatehook" class="nav-link active" aria-current="page" >UseStateHook</Link>
         </li>
       </ul>
     </div>
