@@ -4,6 +4,7 @@ import ListAndKeys from '../Components/ListAndKeys'
 import ContactUs from '../Components/ContactUs'
 import User from '../Components/User'
 import UseStateHooks from '../Components/Hooks/UseStateHooks'
+import UseEffectHook from '../Components/Hooks/UseEffectHook'
 
 export class Routing extends Component {
   render() {
@@ -13,7 +14,7 @@ export class Routing extends Component {
         <Route path='/contactus' element={<ContactUs/>}/>
         <Route path='/user' element={<User/>}/>
         <Route path='/usestatehook' element={<UseStateHooks/>}/>
-
+        <Route path='/useeffecthook' element={<UseEffectHook/>}/>
       </Routes>
     )
   }
