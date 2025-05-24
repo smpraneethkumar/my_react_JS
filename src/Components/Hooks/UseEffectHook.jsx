@@ -1,9 +1,17 @@
 import React, { useEffect, useReducer, useState } from 'react'
 
+/* 
+1.) It will always calls -> Syntax : useEffect(()=>{})
+2.) Only for mounting phase -> Syntax : useEffect(()=>{}, [])
+3.) mounting and updating -> Syntax : useEffect(()=>{}, [countState])
+4.) mounting updating and unMounting : useEffect(()=>{ cleanupFn() }, [countState])
+*/
+
 const UseEffectHook = ()=> {
 
   const[userData, setUserData]= useState([])
 
+  
   useEffect(()=>{
     dataHandler()
   },[])
@@ -12,7 +20,9 @@ const UseEffectHook = ()=> {
     const reponse = await fetch("https://jsonplaceholder.typicode.com/users")
     const data = await reponse.json()
     setUserData( (preState)=> data)
-    console.log(data);
+    // console.log(data);
+    // console.log(preState);
+    
     
   }
 
