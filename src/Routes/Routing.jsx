@@ -5,6 +5,9 @@ import ContactUs from '../Components/ContactUs'
 import User from '../Components/User'
 import UseStateHooks from '../Components/Hooks/UseStateHooks'
 import UseEffectHook from '../Components/Hooks/UseEffectHook'
+import PaginaationEffect from '../Components/Hooks/PaginaationEffect'
+import Timer from '../Components/Hooks/Timer'
+import NoDataFound from '../Components/NoDataFound'
 
 export class Routing extends Component {
   render() {
@@ -15,6 +18,9 @@ export class Routing extends Component {
         <Route path='/user' element={<User/>}/>
         <Route path='/usestatehook' element={<UseStateHooks/>}/>
         <Route path='/useeffecthook' element={<UseEffectHook/>}/>
+        <Route path='/paginaationeffect' element={<PaginaationEffect/>}/>
+        <Route path='/time' element={<Timer/>}/>
+        <Route path='/*' element={<NoDataFound/>}/>
       </Routes>
     )
   }

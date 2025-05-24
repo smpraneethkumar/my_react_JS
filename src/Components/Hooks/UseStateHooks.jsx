@@ -3,9 +3,12 @@ import React, { useState } from 'react'
 function UseStateHooks() {
 const [count,setCount]= useState(0)
 
+console.log(useState);
+
+
 const incrementHandler =() => {
   setCount(preCount => preCount +1 )
-  setCount(preCount => preCount +1 )
+  // setCount(preCount => preCount +1 )
 }
 const decrementHandler =() => {
   setCount(preCount => preCount  -1 )

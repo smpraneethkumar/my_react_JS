@@ -28,6 +28,13 @@ export class Header extends Component {
         <li class="nav-item">
         <Link to="/useeffecthook" class="nav-link active" aria-current="page" >UseEffectHook</Link>
         </li>
+        <li class="nav-item">
+        <Link to="/paginaationeffect" class="nav-link active" aria-current="page" >paginaationEffect</Link>
+        </li>
+        <li class="nav-item">
+        <Link to="/time" class="nav-link active" aria-current="page" >Time</Link>
+        </li>
+        
       </ul>
     </div>
   </div>
