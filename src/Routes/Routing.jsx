@@ -10,6 +10,7 @@ import Timer from '../Components/Hooks/Timer'
 import NoDataFound from '../Components/NoDataFound'
 import UseContactHook from '../Components/Hooks/UseContactHook/UseContactHook'
 import UseRefHook from '../Components/Hooks/UseRefHook'
+import UseReducerHook from '../Components/Hooks/UseReducerHook'
 
 export class Routing extends Component {
   render() {
@@ -23,6 +24,7 @@ export class Routing extends Component {
         <Route path='/paginaationeffect' element={<PaginaationEffect/>}/>
         <Route path='/usecontacthook' element={<UseContactHook/>}/>
         <Route path='/userefhook' element={<UseRefHook/>}/>
+        <Route path='/usereducerhook' element={<UseReducerHook/>}/>
         <Route path='/time' element={<Timer/>}/>
         <Route path='/*' element={<NoDataFound/>}/>
       </Routes>

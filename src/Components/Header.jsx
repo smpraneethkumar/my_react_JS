@@ -39,6 +39,8 @@ export class Header extends Component {
         </li>
         <li class="nav-item">
         <Link to="/userefhook" class="nav-link active" aria-current="page" >UseRefHook</Link>
+        </li><li class="nav-item">
+        <Link to="/usereducerhook" class="nav-link active" aria-current="page" >UseReducerHook</Link>
         </li>
       </ul>
     </div>
