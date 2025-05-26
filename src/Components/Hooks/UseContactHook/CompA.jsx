@@ -1,10 +1,10 @@
 import React from 'react'
 import CompB from './CompB'
 
-const CompA = ({user}) => {
+const CompA = () => {
   return (
     <div>CompA
-        <CompB user={user}/>
+        <CompB/>
     </div>
   )
 }
