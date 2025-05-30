@@ -10,7 +10,8 @@ const UseContactHook = () => {
        <CompA/>
       </userData.Provider>
     </div>
-  )
+  )  
 }
 
 export default UseContactHook
+

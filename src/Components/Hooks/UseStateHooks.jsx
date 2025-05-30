@@ -2,6 +2,10 @@ import React, { useState } from 'react'
 
 function UseStateHooks() {
 const [count,setCount]= useState(0)
+console.log(count);
+console.log(setCount);
+
+
 
 const incrementHandler =() => {
   setCount(preCount => preCount +1 )
@@ -16,7 +20,7 @@ const decrementHandler =() => {
     <div>
       <h2>count :{count} </h2>
       <button type="button" className="btn btn-primary me-5" onClick={incrementHandler}>increment</button>
-      <button type="button" className="btn btn-danger" onClick={decrementHandler}>decrement</button>
+      <button type="button" className="btn btn-danger" onClick={decrementHandler} >decrement</button>
     </div>
   )
 }
